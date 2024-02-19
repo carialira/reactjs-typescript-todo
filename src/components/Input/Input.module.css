@@ -1,0 +1,20 @@
+.input{
+  background: transparent;
+  border: 0;
+  line-height: 0;
+
+  border-radius: 8px;
+  height: 5.4rem;
+  width: 100%;
+
+  background: var(--gray-500);
+  color: var(--gray-100);
+
+  padding: 1.6rem;
+  font-size: 1.6rem;
+
+}
+
+.input:focus-within{
+  box-shadow: 0 0 0 2px var(--purple-dark);
+}

@@ -1,0 +1,36 @@
+
+.taskHeader {
+  display: flex;
+  justify-content: space-between;
+
+  font-weight: bold;
+}
+
+.taskHeader .leftSide {
+  display: flex;
+  gap: 1rem;
+}
+
+.taskHeader .leftSide p {
+  font-size: 1.4rem;
+  color: var(--blue);
+}
+
+.taskHeader .rightSide {
+  display: flex;
+  gap: 1rem;
+}
+
+.taskHeader .rightSide p {
+  color: var(--purple);
+  font-size: 1.2rem;
+}
+
+.taskHeader .leftSide span,
+.taskHeader .rightSide span {
+  padding: 0.2rem 0.8rem;
+  border-radius: 1.6rem;
+
+  color: var(--gray-200);
+  background-color: var(--gray-400);
+}
